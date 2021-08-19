@@ -1,0 +1,11 @@
+{% extends 'evaluation/base.html' %} <--templet er vitor evlauation folder er vitor base.html thakay oivabe likhechi. she base .html ke extend korche-->
+
+{% block content %}
+
+{% for x in ata %}
+<h1>{{x.name}}</h1>
+<h2>{{x.topic}}</h2>
+
+{% endfor %}
+
+{% endblock content %}

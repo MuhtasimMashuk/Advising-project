@@ -1,0 +1,100 @@
+body {
+    font-family: "Montserrat";
+  }
+  
+  h1 {
+    font-family: "Bree Serif", serif;
+    font-size: 4vw;
+    line-height: 1.5;
+    color: white;
+  }
+  
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .nav-item {
+    padding: 0 7;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+  }
+  .drop {
+    /* background-color: #33adff; */
+    opacity: 0.8;
+    font-family: "Montserrat";
+    /* color: white; */
+  }
+  
+  .container-fluid {
+    background-color: #006680;
+    /* background-color:  #33adff; */
+    padding: 50px 100px;
+    margin: 0;
+  }
+  
+  .designbutton {
+    margin: 5% 3% 5% 0;
+  }
+  
+  /* second section */
+  .secondpart {
+    background-color: #e6ffff;
+    padding: 7% 15%;
+  }
+  
+  h3 {
+    font-family: "Bree Serif", serif;
+    font-size: 1.2rem;
+    line-height: 2;
+  }
+  
+  p {
+    color: #8f8f8f;
+    padding-top: 2%;
+  }
+  
+  .space {
+    text-align: center;
+    padding: 7%;
+  }
+  
+  .icon2nd {
+    color: #006699;
+    margin-bottom: 1rem;
+  }
+  
+  .icon2nd:hover {
+    color: #0099e6;
+  }
+  
+  /* 3rd section */
+  
+  .third-section {
+    background-color: #006699;
+  }
+  .notice {
+    text-align: center;
+    padding: 8%;
+  }
+  h2 {
+    font-family: "Bree Serif", serif;
+    color: white;
+    font-size: 3rem;
+  }
+  h4 {
+    text-align: center;
+    font-size: 5vw;
+    font-family: "Acme";
+    color: white;
+    padding-top: 2%;
+  }
+  h4:hover {
+    color: #00ff99;
+    font-size: 6vw;
+  }
+  .notice-text {
+    color: #ffff00;
+  }
+  

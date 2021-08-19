@@ -1,0 +1,102 @@
+body{
+background-color:#006699;
+background-size: cover;
+background-image: url(login.jpg);
+background-repeat: no-repeat;
+/* height: 100%; */
+
+}
+.navbar {
+  padding-left: 4rem;
+}
+.ewu{
+
+  font-family: 'Butcherman', cursive;
+  font-size: 2rem;
+}
+.nav-item {
+  padding: 0 10;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
+.nav-item {
+  padding: 0 10;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+.logdesign{
+  text-align: center;
+  margin-top:10%;
+}
+.card{
+height: 30rem;
+margin-left: auto;
+margin-right: auto;
+margin-top:8rem;
+text-align: center;
+margin-bottom: auto;
+width: 25rem;
+background-color: rgba(0,0,0,0.8);
+}
+
+
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 70px;
+background-color:#33adff;
+color: black;
+border:0 !important;
+}
+
+ input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+background-color:#eeeb52;
+
+} 
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #33adff;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}

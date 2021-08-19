@@ -1,0 +1,107 @@
+{% extends 'evaluation/base.html' %}
+
+{% block content %}
+
+
+<!-- form card -->
+<div class="container-fluid">
+  <!-- <div class="d-flex justify-content-center h-100"> -->
+  <div class="card logdesign" style="height:50rem; width:30rem;">
+    <div class="card-header">
+      <i class="fas fa-exclamation-circle fa-5x" style="color:#ff6d33d5;"></i>
+
+      <h3>evaluation form</h3>
+    
+    </div>
+    <div class="card-body">
+      <form action="{% url 'evaluation-faculty' %}" method="POST">
+        {%csrf_token%}
+        <div class="input-group form-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"><i class="fas fa-user"></i></span>
+          </div>
+          <input type="text" name="faculty_name" class="form-control" placeholder="faculty_name">
+
+        </div>
+        <div class="input-group form-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"><i class="fas fa-angle-right"></i></span>
+          </div>
+          <input type="text" name="faculty_id" class="form-control" placeholder="faculti_id">
+        </div>
+
+        <div class="input-group form-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"><i class="fas fa-angle-right"></i></span>
+          </div>
+          <input type="number" name="Behaviour" class="form-control" placeholder=" Behaviour">
+        </div>
+        <div class="input-group form-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"><i class="fas fa-angle-right"></i></span>
+          </div>
+          <input type="number" name="teaching-style" class="form-control" placeholder="teaching-style">
+        </div>
+        <div class="input-group form-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"><i class="fas fa-angle-right"></i></span>
+          </div>
+          <input type="number" name="Giving-feedback" class="form-control" placeholder="Giving-feedback">
+        </div>
+        <div class="input-group form-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"><i class="fas fa-angle-right"></i></span>
+          </div>
+          <input type="number" name="Office-hour" class="form-control" placeholder="Office-hour">
+        </div>
+
+        <div class="input-group form-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"><i class="fas fa-angle-right"></i></span>
+          </div>
+          <input type="number" name="Skill" class="form-control" placeholder="Skill">
+        </div>
+      
+        <div class="input-group form-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"><i class="fas fa-angle-right"></i>mark</span>
+          </div>
+          <!-- <input type="text" name="comment" class="form-control" placeholder="comment"> -->
+          <select name="comment">
+            <option value="good">good</option>
+            <option value="best">best</option>
+            <option value="great">great</option>
+            <option value="nutral">nutral</option>
+            <option value="not-good">not-good</option>
+          </select> 
+        </div>
+        
+
+
+        
+        <div class="form-group">
+          <input type="submit" value="submit" class="btn float-right login_btn">
+        </div>
+      </form>
+    </div>
+    <div class="card-footer">
+      <div class="d-flex justify-content-center links">
+        Don't have an account?<a href="{% url 'evaluation-regi' %}">register</a>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- <div class="row">
+      <div class="col-lg-4 space">
+       {% for x in messages %}
+
+       <h3 style="background-color:yellow ">{{x}}</h3> 
+
+       {%endfor%}
+      </div>
+
+  </div> -->
+</div>
+
+{% endblock content %}
